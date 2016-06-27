@@ -36,6 +36,7 @@ console.log(entryObj)
 
 
 var commonConfig = {
+    cache:true,
     devtool: 'cheap-module-eval-source-map',
     entry: entryObj,
     output: {
